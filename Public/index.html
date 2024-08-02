@@ -6,8 +6,48 @@
     <link rel="stylesheet" href="style.css" />
     <title>Redgrafix.com</title>
   </head>
-  <body class="bg-yellow-500">
-    <h1 class="text-black text-xl">TailwindCss installation</h1>
+  <body class="bg-white m-o p-0 font-sans">
+    <!-- Background container -->
+    <div
+      class="bg-cover bg-center"
+      style="background-image: URL ('Img/logo.jpg')"
+    >
+      <!-- Navbar and logo area -->
+      <div class="container">
+        <div class="flex items-center bg-blend-normal p-4">
+          <h1 class="text-black mr-7 text-2xl">Redgrafix</h1>
+          <nav class="relative flex pt-2 flex-grow rounded-full">
+            <div class="ml-6 flex items-center space-x-7 hover:red-500">
+              <a href="#" class="black">About</a>
+              <a href="#" class="black">Why us?</a>
+              <a href="#" class="black">Solutions</a>
+              <a href="#" class="black">Contacts</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- Hero-section -->
+      <section class="text-white py-20">
+        <div class="container mx-auto px-6 text-center">
+          <h1
+            class="text-black text-5xl md:text-6xl lg: text-7xl font-bold mb-6"
+          >
+            Unleash Your Brand's Potential
+          </h1>
+          <p class="text-black text-lg md:text-xl lg:text-2xl mb-16">
+            Creative, impactful designs that tell your story and captivate your
+            audience.
+          </p>
+          <a
+            href="#"
+            class="bg-blue-500 text-white font-semibold py-3 px-8 rounded-full shadow-lg transition-duration-300 hover:bg-gray-300"
+            >Get Started</a
+          >
+        </div>
+      </section>
+    </div>
+    <!-- About section -->
+
     <script src="script.js"></script>
   </body>
 </html>
